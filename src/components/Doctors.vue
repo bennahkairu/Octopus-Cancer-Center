@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-14 pb-20" id="about-us">
+  <section class="pt-14 pb-20" id="specialists">
     <div class="container relative z-1">
       <div class="flex">
         <h6 class="font-semibold text-base mt-2 w-[18%]">Doctors</h6>
@@ -12,14 +12,6 @@
             </div>
             <div class="mt-3">
               <div class="triangle-notch rotate-[135deg]"></div>
-            </div>
-            <div class="w-5/12">
-              <div class="text-white text-right pl-8">
-                <div class="bg-primary py-6 px-7">
-                  <h6 class="font-medium mb-6">Our doctors without borders rank within the top:</h6>
-                  <h4 class="text-4xl num-font">20%</h4>
-                </div>
-              </div>
             </div>
           </div>
 

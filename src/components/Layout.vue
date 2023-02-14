@@ -12,7 +12,7 @@
       </ul>
 
       <div class="w-3/12 flex items-center justify-end">
-        <a href="#" class="border border-gray-300 rounded-full py-3 px-8 text-sm font-medium">+254 733 944 071</a>
+        <a href="tel:+13050000000" class="border border-gray-300 rounded-full py-3 px-8 text-sm font-medium">+1 305-000-0000</a>
       </div>
     </div>
   </header>
@@ -30,7 +30,8 @@ const navItems = [
   { label: "About Us", section: "#about-us" },
   { label: "Specialists", section: "#specialists" },
   { label: "Services", section: "#services" },
-  { label: "Doctors", section: "#doctors" },
+  { label: "Book Appointment", section: "#appointment" },
+  { label: "Faqs", section: "#faqs" },
   { label: "Contact", section: "#contact" },
 ]
 </script>

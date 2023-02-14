@@ -1,5 +1,5 @@
 <template>
-  <section class="py-24 bg-primary text-white" id="about-us">
+  <section class="py-24 bg-primary text-white" id="contact">
     <div class="container relative z-1">
       <div class="flex mb-12">
         <div class="flex-1 mt-2"><img class="w-[10rem]" :src="getSrc('octopus.svg')" /></div>
@@ -7,24 +7,26 @@
       </div>
       <h3 class="pb-4 text-2xl leading-snug font-semibold w-1/2 mb-2">Request a callback.</h3>
       <div class="mt-12 pb-20 border-b border-white/20 mb-4">
-        <div class="flex flex-wrap gap-y-6">
+        <div class="flex flex-wrap gap-x-4 mb-6">
           <label class="w-1/2">
             <input
-              class="placeholder:text-gray-200 border border-slate-400 px-6 py-3 rounded-full bg-transparent text-gray-200"
+              class="placeholder:text-gray-200 border border-slate-400 px-10 py-4 rounded-full bg-transparent text-gray-200 w-full"
               type="text" placeholder="Full name" />
           </label>
-          <label class="w-1/2">
+          <label class="flex-1">
             <input
-              class="placeholder:text-gray-200 border border-slate-400 px-6 py-3 rounded-full bg-transparent text-gray-200"
+              class="placeholder:text-gray-200 border border-slate-400 px-10 py-4 rounded-full bg-transparent text-gray-200 w-full"
               type="email" placeholder="Phone Number" />
           </label>
-          <label>
+        </div>
+        <div class="flex flex-wrap gap-y-6 gap-x-4">
+          <label class="w-1/2">
             <input
-              class="placeholder:text-gray-200 border border-slate-400 px-6 py-3 rounded-full bg-transparent text-gray-200"
+              class="placeholder:text-gray-200 border border-slate-400 px-10 py-4 rounded-full bg-transparent text-gray-200 w-full"
               type="email" placeholder="Medical issue / issue of concern" />
           </label>
-          <button class="rounded-full py-1 px-12 bg-white text-primary font-semibold" type="submit">Submit</button>
         </div>
+        <button class="rounded-full py-4 px-24 mt-6 bg-white text-primary font-semibold" type="submit">Submit</button>
       </div>
       <div class="flex justify-between items-center">
         <p class="text-white/80 text-sm">&copy; Octopus Cancer Center. All rights reserved.</p>

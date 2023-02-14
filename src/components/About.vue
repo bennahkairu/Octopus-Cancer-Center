@@ -6,9 +6,8 @@
           <div class="flex justify-between">
             <h6 class="font-semibold flex-1 text-base mt-2">About Us</h6>
             <div class="w-7/12">
-              <h3 class="pb-4 text-4xl leading-snug font-semibold">Opthalmology clinic Vigen.</h3>
-              <p class="text-gray-600 mb-12 text-sm leading-relaxed">The modern Vigen Opthalmology Clinic
-                is one of the 5 top level clinics of the European Union.</p>
+              <h3 class="pb-4 text-3xl leading-snug font-semibold">Octopus Cancer Center</h3>
+              <p class="text-gray-600 mb-12 text-sm leading-relaxed">A new start up healthcare organization in South Florida, Miami specializing in treatment, support care, and research of cancer.</p>
             </div>
           </div>
           <div class="flex items-end">
@@ -16,8 +15,8 @@
               <div class="triangle-notch rotate-[-45deg]"></div>
             </div>
             <div class="w-7/12">
-              <button class="text-white font-semibold rounded-full py-4 px-10 bg-primary text-sm">Our
-                services</button>
+              <a href="#services" class="text-white font-semibold rounded-full py-4 px-10 bg-primary text-sm">Our
+                services</a>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-24 pb-20" id="about-us">
+  <section class="pt-24 pb-20" id="faqs">
     <div class="container relative z-1">
       <div class="flex">
         <h6 class="font-semibold text-base mt-2 w-[18%]">FAQ</h6>

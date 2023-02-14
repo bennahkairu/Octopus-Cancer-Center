@@ -2,7 +2,7 @@
 import Appointment from '@/components/Appointment.vue'
 import Services from '@/components/Services.vue'
 import Doctors from '@/components/Doctors.vue'
-import Cancers from '@/components/Cancers.vue'
+import Mission from '@/components/Mission.vue'
 import Layout from '@/components/Layout.vue'
 import About from '@/components/About.vue'
 import Hero from '@/components/Hero.vue'
@@ -14,7 +14,7 @@ import Faqs from '@/components/Faqs.vue'
     <Layout>
       <Hero />
       <About />
-      <Cancers />
+      <Mission />
       <Services />
       <Appointment />
       <Doctors />

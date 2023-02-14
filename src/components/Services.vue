@@ -1,5 +1,5 @@
 <template>
-  <section id="about-us" class="pt-14 pb-20">
+  <section id="services" class="pt-14 pb-20">
     <div class="container relative z-1">
       <div class="flex">
         <h6 class="font-semibold text-base mt-2 w-[18%]">Services</h6>
