@@ -19,10 +19,12 @@
 
   <slot></slot>
 
+  <Contact />
 </template>
 
 <script setup>
 import { getSrc } from '@/assets/scripts'
+import Contact from '@/components/Contact.vue'
 
 const navItems = [
   { label: "About Us", section: "#about-us" },

@@ -9,7 +9,7 @@ module.exports = {
         lg: "2rem",
       },
        screens: {
-        '2xl': '1180px',
+        '2xl': '1050px',
       },
     },
     extend: {

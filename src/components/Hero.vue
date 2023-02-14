@@ -2,8 +2,8 @@
   <section class="pt-48 min-h-[900px] relative bg-black text-white"><img
       class="absolute w-full h-full top-0 left-0 object-cover opacity-60" :src="getSrc('care-banner.jpg')" />
     <div class="container relative z-1">
-      <div class="flex mb-48">
-        <div class="w-6/12">
+      <div class="flex mb-36">
+        <div class="w-7/12">
           <h1 class="text-[2.5rem] font-medium leading-tight">Over a long period of time, we've provided hundreds of thousands of eye care services.</h1>
         </div>
         <div class="flex-1 text-right">

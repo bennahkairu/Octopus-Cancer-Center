@@ -2,7 +2,7 @@
   <section class="py-24 bg-primary text-white" id="about-us">
     <div class="container relative z-1">
       <div class="flex">
-        <div class="w-[18%] mt-2"><img class="w-12" src="images/octo-fav.svg" /></div>
+        <div class="w-[18%] mt-2"><img class="w-12" :src="getSrc('octo-fav.svg')" /></div>
         <div class="flex-1">
           <div class="flex items-start justify-between">
             <h3 class="pb-4 text-4xl leading-snug font-semibold w-1/2 mb-2">Make an appointment with us.</h3>
@@ -52,4 +52,5 @@
 </template>
 
 <script setup>
+import { getSrc } from '@/assets/scripts'
 </script>
