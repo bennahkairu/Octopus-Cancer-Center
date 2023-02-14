@@ -1,0 +1,30 @@
+/* Add tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  .num-font {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  :root {
+    --color-primary: 42 69 253;
+  }
+}
+
+.triangle-notch {
+  width: 0; 
+  height: 0; 
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent; 
+  border-right:8px solid; 
+}
+
+*:focus {
+  outline: none;
+}
