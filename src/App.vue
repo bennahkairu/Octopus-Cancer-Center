@@ -1,7 +1,7 @@
 <script setup>
 import Appointment from '@/components/Appointment.vue'
+import Specialists from '@/components/Specialists.vue'
 import Services from '@/components/Services.vue'
-import Doctors from '@/components/Doctors.vue'
 import Mission from '@/components/Mission.vue'
 import Layout from '@/components/Layout.vue'
 import About from '@/components/About.vue'
@@ -17,7 +17,7 @@ import Faqs from '@/components/Faqs.vue'
       <Mission />
       <Services />
       <Appointment />
-      <Doctors />
+      <Specialists />
       <Faqs />
     </Layout>
   </main>
