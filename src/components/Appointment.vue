@@ -1,5 +1,6 @@
 <template>
-  <section class="md:py-24 py-16 bg-primary text-white" id="appointment">
+  <section class="md:py-24 py-16 bg-primary text-white relative" id="appointment">
+    <img :src="getSrc('mission.jpg')" class="absolute w-full h-full object-cover top-0 left-0 mix-blend-overlay opacity-80" alt="Our Mission">
     <div class="container relative z-1">
       <div class="flex">
         <div class="w-[18%] mt-2 lg:block hidden"><img class="w-12" :src="getSrc('octo-fav.svg')" /></div>

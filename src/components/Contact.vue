@@ -1,5 +1,6 @@
 <template>
-  <section class="lg:py-24 py-16 bg-primary text-white" id="contact">
+  <section class="lg:py-24 py-16 bg-primary text-white relative" id="contact">
+    <img :src="getSrc('mission.jpg')" class="absolute w-full h-full object-cover top-0 left-0 mix-blend-overlay opacity-80" alt="Our Mission">
     <div class="container relative z-1">
       <div class="flex mb-12">
         <div class="flex-1 mt-2"><img class="w-[10rem]" :src="getSrc('octopus.svg')" /></div>
