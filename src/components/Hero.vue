@@ -4,7 +4,7 @@
     <div class="container relative z-1">
       <div class="lg:flex ld:mb-36 mb-20">
         <div class="md:w-7/12">
-          <h1 class="lg:text-[2.5rem] text-3xl font-medium leading-tight">An unrivaled commitment to provide quality, patient oriented, affordable cancer treatment and care.</h1>
+          <h1 class="lg:text-[2.5rem] lg:leading-tight md:text-3xl md:leading-snug leading-relaxed text-2xl font-medium">An unrivaled commitment to providing quality, patient oriented, affordable cancer treatment and care.</h1>
         </div>
         <div class="flex-1 lg:text-right lg:mt-0 mt-8">
           <h2 class="text-6xl mb-2 font-black">3K+</h2>
